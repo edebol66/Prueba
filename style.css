@@ -1,0 +1,236 @@
+.texto{
+  height: 25px;
+  width: 51px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+  text-align: center;
+  position: relative;
+  top:45px;
+}
+
+.espa{
+	padding-top: 7%;
+}
+.img{
+	visibility: hidden;
+}
+
+.na{
+	height: 75px;
+  width: 300px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 26px;
+}
+.create{
+  padding-top: 7%;
+  height: 24px;
+  width: 88px;
+  color: #FFBE00;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-align: right;
+}
+.princi{
+	text-decoration: underline;
+	color: #FFBE00;
+	font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 26px;
+  height: 75px;
+  width: 150px;
+}
+.dic{
+  position: absolute;
+  left: 15%;
+  border-color: #000000 !important;
+}
+.texto-simple{
+  padding-top: 5%;
+  height: 19px;
+  width: 110px;
+  color: #C1C7D0;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 19px;
+  position: relative;
+  right: 130%;
+}
+.upcoming-tasks {
+  height: 17px;
+  width: 110px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.card-tipo{
+  height: 200px;
+  width: 600px;
+  border-radius: 8px;
+  background-color: #10161C;
+  box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
+}
+.titulo-card{
+  height: 20px;
+  width: 119px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.remitente-card{
+  height: 19px;
+  width: 550px;
+  color: #C1C7D0;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+.foot{
+  text-align: right;
+  padding-right: 15px;
+}
+.barra-progreso{
+  height: 10px;
+  width: 96px;
+  color: #C1C7D0;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+.dato-barra{
+  top: -18%;
+  height: 14px;
+  width: 150px;
+  color: #C1C7D0;
+  font-family: Avenir;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: relative;
+  left: 95%;
+}
+.barra{
+  position: relative;
+  top: -25%;
+}
+div button:hover{
+	text-decoration: underline;
+	color: #FFBE00;
+}
+@media only screen and (max-width: 991.98px){
+	.texto{
+	  height: 25px;
+	  width: 51px;
+	  color: #FFFFFF;
+	  font-family: Avenir;
+	  font-size: 40px;
+	  font-weight: 900;
+	  letter-spacing: 0;
+	  line-height: 26px;
+	  position: relative;
+	  text-align: center;
+	  top:55px;
+	}
+	.img{
+		width: 100%;
+		height: auto;
+    visibility: visible;
+	}
+	.data{
+		padding-top: 5%;
+	}
+	.na{
+  height: 75px;
+  width: 240px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 26px;
+  }
+  .create{
+  padding-top: 40%;
+  height: 75px;
+  width: 150px;
+  color: #FFBE00;
+  font-family: Avenir;
+  font-size: 23px;
+  font-weight: 900;
+  line-height: 21px;
+  text-align: right;
+  position: relative;
+  left: 50%;
+  }
+  .princi{
+  text-decoration: underline;
+  color: #FFBE00;
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 26px;
+  height: 75px;
+  width: 150px;
+  }
+  .dic{
+  left:2%;
+  }
+  .ca{
+    padding-top: 4%;
+  }
+   .ca2{
+    padding-top: 70%;
+  }
+  .texto-simple{
+  padding-top: 202%;
+  height: 25px;
+  width: 200px;
+  color: #C1C7D0;
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 19px;
+  position: relative;
+  right: -140%;
+}
+.upcoming-tasks {
+  height: 30px;
+  width: 200px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+  }
+  .card-tipo{
+  height: 150px;
+  width: 350px;
+  border-radius: 8px;
+  background-color: #10161C;
+  box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
+}
+}
