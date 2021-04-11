@@ -84,17 +84,47 @@
   letter-spacing: 0;
   line-height: 26px;
 }
+.boton-des{
+  color: #ffffff;
+  height: 35px;
+  width: 115px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: relative;
+  left: 185%;
+  top: 6px;
+}
 .espacio-card{
   position: relative;
-  left: -3%;
+  left: 2%;
 }
 .espacio-card2{
   position: relative;
-  left: 8%;
+  left: 12%;
 }
+.espacio-card3{
+    padding-left: 20%;
+    position: relative;
+    left: -21%;
+  }
+  .espacio-card4{
+    position: relative;
+    left: 16%; 
+  }
 .card-tipo{
   height: 175px;
-  width: 500px;
+  width: 475px;
+  border-radius: 8px;
+  background-color: #10161C;
+  box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
+}
+.card-tipo2{
+  height: 175px;
+  width: 425px;
   border-radius: 8px;
   background-color: #10161C;
   box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
@@ -182,7 +212,7 @@ div button:hover{
 	  position: relative;
 	  text-align: center;
 	  top:155px;
-    left: 9%;
+    left: 12%;
 	}
 	.img{
 		width: 40%;
@@ -239,7 +269,7 @@ div button:hover{
     left: -10%;
   }
   .ca2B{
-    top: 68px;
+    top: 70px;
     position: relative;
     left: 460%;
   }
@@ -282,6 +312,7 @@ div button:hover{
     position: relative;
     left: -2%;
   }
+  
   .dato-barra{
   top: -18%;
   height: 35px;
@@ -333,4 +364,51 @@ div button:hover{
   top: -20%;
   font-size: 32px;
   }
+  .espacio-card3{
+    padding-left: 20%;
+    position: relative;
+    left: -4%;
+  }
+  .espacio-card4{
+    position: relative;
+    left: -2%; 
+  }
+  .card-tipo2{
+  height: 275px;
+  width: 475px;
+  border-radius: 8px;
+  background-color: #10161C;
+  box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
+  }
+  .boton-des{
+  color: #ffffff;
+  height: 35px;
+  width: 115px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 34px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: relative;
+  left: 320%;
+  top: 140px;
+  visibility: hidden;
+  }
+  .mostrar{
+    color: #ffffff;
+  height: 65px;
+  width: 115px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 34px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: relative;
+  left: 320%;
+  top: 90px;
+  visibility: visible;
+  }
+
 }
