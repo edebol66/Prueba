@@ -11,15 +11,19 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
 
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="javaScript.js">
 	<title>Task</title>
 </head>
 <body style="background-color: #040B11">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3">
-				
+				<i class="material-icons img-atras">chevron_left</i>
 			</div>
 			<div class="col-md-6">
 				<center><p class="texto">Tasks</p></center>
@@ -93,7 +97,7 @@
 			</div>
 			<div class="col-md-12"></div>
 			<div class="col-md-2" style="padding-top: 4%;">
-				<p class="upcoming-tasks ca2A">Statistics</p>
+				<p class="statistics ca2A">Statistics</p>
 			</div>
 			<div class="col-md-4" style="padding-top: 3%;">
 				<button type="button" class="btn btn-outline-dark dropdown-toggle boton-des">Download  <i class="fas fa-download"></i></button>
@@ -107,53 +111,37 @@
 					  <div class="col espacio-card4">
 					    <div class="card card-tipo2">
 					      <div class="card-body">
-					        <h5 class="titulo-card">Order #890P090</h5>
-					        <p class="remitente-card">Bryan Williams</p>
-					        <p class="barra-progreso">Progress<div class="dato-barra">20%</div></p>
-					        <div class="progress barra">
-							  	<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 20%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
+					      	<img src="img/menu.png " class="img-fluid img-estadisticas">
+					        <h5 class="numeros">50</h5>
+					        <p class="complemento-num">Total Projects</p>
 					      </div>
-					      <p class="card-text foot"><small class="text-muted">1 day left</small></p>
 					    </div>
 					  </div>
 					  <div class="col espacio-card3">
 					    <div class="card card-tipo2">
 					      <div class="card-body">
-					        <h5 class="titulo-card">Order #890P090</h5>
-					        <p class="remitente-card">Marcus Klaus</p>
-					        <p class="barra-progreso">Progress<div class="dato-barra">20%</div></p>
-					        <div class="progress barra">
-							  	<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
+					      	<img src="img/check.png " class="img-fluid img-estadisticas">
+					        <h5 class="numeros">15</h5>
+					        <p class="complemento-num espacio-numero">Completed</p>
 					      </div>
-					      <p class="card-text foot"><small class="text-muted">3 day left</small></p>
 					    </div>
 					  </div>
 					  <div class="col espacio-card4" style="position: relative;top: -24px;">
 					    <div class="card card-tipo2">
 					      <div class="card-body">
-					        <h5 class="titulo-card">Order #890P090</h5>
-					        <p class="remitente-card">Bryan Williams</p>
-					        <p class="barra-progreso">Progress<div class="dato-barra">20%</div></p>
-					        <div class="progress barra">
-							  	<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 20%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
+					      	<img src="img/destello.png " class="img-fluid img-estadisticas">
+					        <h5 class="numeros">10</h5>
+					        <p class="complemento-num espacio-numero">In Progress</p>
 					      </div>
-					      <p class="card-text foot"><small class="text-muted">1 day left</small></p>
 					    </div>
 					  </div>
 					  <div class="col espacio-card3" style="position: relative;top: -24px;">
 					    <div class="card card-tipo2">
 					      <div class="card-body">
-					        <h5 class="titulo-card">Order #890P090</h5>
-					        <p class="remitente-card">Marcus Klaus</p>
-					        <p class="barra-progreso">Progress<div class="dato-barra">20%</div></p>
-					        <div class="progress barra">
-							  	<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
+					      	<img src="img/reloj.png " class="img-fluid img-estadisticas">
+					        <h5 class="numeros">2</h5>
+					        <p class="complemento-num espacio-numero">Delayed</p>
 					      </div>
-					      <p class="card-text foot"><small class="text-muted">3 day left</small></p>
 					    </div>
 					  </div>
 					</div>
@@ -165,9 +153,68 @@
 		</div>
 	</div>
 	<div class="container">
+		 <div class="row">
+		 	
+		 </div>
+	</div>
+	<div class="container">
 		<div class="row">
-			<div></div>
+			<center><div class="col-md-12">
+				<div class="tab-content ca" id="nav-tab">
+				  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+				  	<div class="row row-cols-1 row-cols-md-2 g-4">
+					  <div class="col">
+					    <div class="card card-tipo3">
+					      <div class="card-body">
+					        	<ul class="dic2">
+								  <div class="nav nav-pills nav-justified" id="nav-tab" role="tablist">
+								    <button class="nav-link na2" id="nav-home-tab"  data-bs-target="#nav-home" type="button"  aria-controls="nav-home">Day</button>
+								    <button class="nav-link na2 " id="nav-profile-tab"  data-bs-target="#nav-profile" type="button" aria-controls="nav-profile" >Week</button>
+								    <button class="nav-link princi2 " id="nav-contact-tab"  data-bs-target="#nav-contact" type="button"  aria-controls="nav-contact">Month</button>
+								     <button class="nav-link na2 " id="nav-contact-tab"  data-bs-target="#nav-contact" type="button"  aria-controls="nav-contact" >Year</button>
+								  </div>
+								</ul>
+					      </div>
+					      <center><p class="simbolo" style="padding-top: 10%;">$</p></center>
+					      <center><p class="dato-abajo1" style="padding-top: 10%;">13,543</p></center>
+					      <center><div class="ct-chart ct-perfect-fourth" style="position: relative;top: -75px;"><img src="img/oval.png" class="img-fluid img-oval"><img src="img/lineaVertical.png" class="img-fluid img-linea"></div></center>
+					    </div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+				  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+				</div>
+			</div></center>
 		</div>
 	</div>
+	
 </body>
 </html>
+<script>
+        var chart = new Chartist.Line('.ct-chart', {
+            labels: ['Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov'],
+            series: [
+                [2, 3, 1, 4, 2, 3,]
+            ]
+        }, {
+            low: 0,
+            showArea: false,
+            showPoint: false,
+            fullWidth: true
+        });
+
+        chart.on('draw', function (data) {
+            if (data.type === 'line' || data.type === 'area') {
+                data.element.animate({
+                    d: {
+                        begin: 2000 * data.index,
+                        dur: 3000,
+                        from: data.path.clone().scale(1, 0).translate(0, data.chartRect.height()).stringify(),
+                        to: data.path.clone().stringify(),
+                        easing: Chartist.Svg.Easing.easeOutQuint
+                    }
+                });
+            }
+        });
+    </script>

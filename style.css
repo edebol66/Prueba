@@ -1,3 +1,47 @@
+/*Gráfica*/
+.ct-chart {
+        width: 750px;
+        color: white;
+        background-color: transparent;
+        height: 300px;
+        
+    }
+
+    .ct-series-a .ct-line {
+        stroke: rgb(255, 187, 0);
+
+    }
+
+    .ct-horizontal {
+        color: #89898A;
+        font-family: Avenir;
+        font-size: 16px;
+        font-weight: 900;
+        letter-spacing: 0;
+        line-height: 22px;
+        height: 19px;
+        width: 10px;
+    }
+    .ct-vertical  {
+       margin: 0px;
+       visibility: hidden;
+    }
+    .img-linea{
+      width: 25px;
+      height: 75%;
+      position: relative;
+      top: 33px;
+      left: 15%;
+    }
+    .img-oval{
+      position: relative;
+      top: -75px;
+      left: 134px;
+      z-index: 100;
+    }
+
+/*Computadora*/
+
 .texto{
   height: 25px;
   width: 51px;
@@ -26,9 +70,19 @@
   width: 150px;
   color: #FFFFFF;
   font-family: Avenir;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 900;
   line-height: 26px;
+}
+.na2{
+  height: 75px;
+  width: 150px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 25px;
 }
 .create{
   padding-top: 12%;
@@ -46,20 +100,78 @@
 }
 .princi{
 	text-decoration: underline;
+  height: 75px;
+  width: 150px;
+  color: #FFBE00;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+.princi2{
+  text-decoration: underline;
   border: 25px;
-	color: #FFBE00;
-	font-family: Avenir;
-  font-size: 14px;
+  color: #FFBE00;
+  font-family: Avenir;
+  font-size: 16px;
   font-weight: 900;
   line-height: 26px;
   height: 75px;
-  width: 150px;
-  size: 10px;
+  width: 50px;
+  
+}
+.img-atras{
+  color: #ffffff;
+  font-size: 40px;
+  padding-top: 12%;
+  position: relative;
+  left: 28%;
+}
+.mostrar{
+  visibility: hidden;
+}
+.numeros{
+  height: 25px;
+  width: 250px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+.complemento-num{
+  height: 19px;
+  width: 100px;
+  color: #C1C7D0;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: center;
+  position: relative;
+  top: -45px;
+  left: 30%;
+}
+.espacio-numero{
+  position: relative;
+  left: 28%;
 }
 .dic{
   position: absolute;
   left: 30%;
   border-color: #000000 !important;
+}
+.dic2{
+  position: absolute;
+  left: 24%;
+  border-color: #000000 !important;
+  padding-top: 3%;
 }
 .texto-simple{
   padding-top: 5%;
@@ -113,8 +225,18 @@
   }
   .espacio-card4{
     position: relative;
-    left: 16%; 
+    left: 20%; 
   }
+  .statistics {
+  height: 24px;
+  width: 69px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+}
 .card-tipo{
   height: 175px;
   width: 475px;
@@ -123,12 +245,22 @@
   box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
 }
 .card-tipo2{
-  height: 175px;
-  width: 425px;
+  height: 125px;
+  width: 375px;
   border-radius: 8px;
   background-color: #10161C;
   box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
 }
+.card-tipo3{
+  height: 600px;
+  width: 1024px;
+  border-radius: 8px;
+  background-color: #10161C;
+  box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
+  position: relative;
+  left: 120px;
+  top: 30px;
+  }
 .titulo-card{
   height: 20px;
   width: 119px;
@@ -195,7 +327,36 @@ div button:hover{
 	text-decoration: underline;
 	color: #FFBE00;
 }
-
+.img-estadisticas{
+  width: 15%;
+  position: relative;
+  top: 15px;
+  left: 17px;
+}
+.dato-abajo1{
+  height: 61px;
+  width: 149.5px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 45px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 61px;
+  text-align: center;
+  position: relative;
+  top: -125px;
+}
+.simbolo{
+   height: 26px;
+  width: 16.9px;
+  color: #FFFFFF;
+  font-family: ".SF NS Display";
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: relative;
+  left: -80px;
+}
 
 
 /* Para teléfono*/
@@ -205,14 +366,14 @@ div button:hover{
 	  width: 51px;
 	  color: #FFFFFF;
 	  font-family: Avenir;
-	  font-size: 50px;
+	  font-size: 60px;
 	  font-weight: 900;
 	  letter-spacing: 0;
 	  line-height: 26px;
 	  position: relative;
 	  text-align: center;
-	  top:155px;
-    left: 12%;
+	  top:150px;
+    left: 75px;
 	}
 	.img{
 		width: 40%;
@@ -380,6 +541,7 @@ div button:hover{
   background-color: #10161C;
   box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
   }
+  
   .boton-des{
   color: #ffffff;
   height: 35px;
@@ -410,5 +572,11 @@ div button:hover{
   top: 90px;
   visibility: visible;
   }
-
+  .img-atras{
+  color: #ffffff;
+  font-size: 115px;
+  position: relative;
+  left: 0px;
+  top:85px;
+  }
 }
