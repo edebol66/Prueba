@@ -16,12 +16,14 @@
 	padding-top: 7%;
 }
 .img{
-	visibility: hidden;
+	position: relative;
+  padding-top: 16%;
+  left: 28%;
 }
 
 .na{
 	height: 75px;
-  width: 300px;
+  width: 150px;
   color: #FFFFFF;
   font-family: Avenir;
   font-size: 14px;
@@ -29,7 +31,7 @@
   line-height: 26px;
 }
 .create{
-  padding-top: 7%;
+  padding-top: 12%;
   height: 24px;
   width: 88px;
   color: #FFBE00;
@@ -39,9 +41,12 @@
   letter-spacing: 0;
   line-height: 21px;
   text-align: right;
+  position: relative;
+  left: 45%;
 }
 .princi{
 	text-decoration: underline;
+  border: 25px;
 	color: #FFBE00;
 	font-family: Avenir;
   font-size: 14px;
@@ -49,10 +54,11 @@
   line-height: 26px;
   height: 75px;
   width: 150px;
+  size: 10px;
 }
 .dic{
   position: absolute;
-  left: 15%;
+  left: 30%;
   border-color: #000000 !important;
 }
 .texto-simple{
@@ -78,9 +84,17 @@
   letter-spacing: 0;
   line-height: 26px;
 }
+.espacio-card{
+  position: relative;
+  left: -3%;
+}
+.espacio-card2{
+  position: relative;
+  left: 8%;
+}
 .card-tipo{
-  height: 200px;
-  width: 600px;
+  height: 175px;
+  width: 500px;
   border-radius: 8px;
   background-color: #10161C;
   box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
@@ -108,6 +122,8 @@
 .foot{
   text-align: right;
   padding-right: 15px;
+  position: relative;
+  top: -15%;
 }
 .barra-progreso{
   height: 10px;
@@ -132,6 +148,15 @@
   position: relative;
   left: 95%;
 }
+.ca2A{
+  position: relative;
+  left: 55%;
+}
+.ca2B{
+  position: relative;
+  left: 1%;
+  top: -1%;
+}
 .barra{
   position: relative;
   top: -25%;
@@ -140,76 +165,91 @@ div button:hover{
 	text-decoration: underline;
 	color: #FFBE00;
 }
-@media only screen and (max-width: 991.98px){
+
+
+
+/* Para teléfono*/
+@media (min-width: 768px) and (max-width: 991px){
 	.texto{
 	  height: 25px;
 	  width: 51px;
 	  color: #FFFFFF;
 	  font-family: Avenir;
-	  font-size: 40px;
+	  font-size: 50px;
 	  font-weight: 900;
 	  letter-spacing: 0;
 	  line-height: 26px;
 	  position: relative;
 	  text-align: center;
-	  top:55px;
+	  top:155px;
+    left: 9%;
 	}
 	.img{
-		width: 100%;
+		width: 40%;
 		height: auto;
-    visibility: visible;
+    position: relative;
+    left: 175%;
+    top: 100px;
 	}
 	.data{
 		padding-top: 5%;
 	}
 	.na{
   height: 75px;
-  width: 240px;
+  width: 450px;
   color: #FFFFFF;
   font-family: Avenir;
-  font-size: 24px;
+  font-size: 38px;
   font-weight: 900;
   line-height: 26px;
   }
   .create{
-  padding-top: 40%;
+  padding-top: 135%;
   height: 75px;
-  width: 150px;
+  width: 200px;
   color: #FFBE00;
   font-family: Avenir;
-  font-size: 23px;
+  font-size: 40px;
   font-weight: 900;
   line-height: 21px;
   text-align: right;
   position: relative;
-  left: 50%;
+  left: 114%;
   }
   .princi{
-  text-decoration: underline;
+  text-decoration: underline; 
   color: #FFBE00;
   font-family: Avenir;
-  font-size: 24px;
+  font-size: 38px;
   font-weight: 900;
   line-height: 26px;
   height: 75px;
-  width: 150px;
+  width: 425px;
   }
   .dic{
-  left:2%;
+  padding-top: 5%;
+  left:1%;
   }
   .ca{
-    padding-top: 4%;
+    padding-top: 8%;
   }
-   .ca2{
-    padding-top: 70%;
+  .ca2A{
+    padding-top: 150%;
+    position: relative;
+    left: -10%;
+  }
+  .ca2B{
+    top: 68px;
+    position: relative;
+    left: 460%;
   }
   .texto-simple{
-  padding-top: 202%;
+  padding-top: 220%;
   height: 25px;
   width: 200px;
   color: #C1C7D0;
   font-family: Avenir;
-  font-size: 24px;
+  font-size: 38px;
   font-weight: 300;
   letter-spacing: 0;
   line-height: 19px;
@@ -218,19 +258,79 @@ div button:hover{
 }
 .upcoming-tasks {
   height: 30px;
-  width: 200px;
+  width: 400px;
   color: #FFFFFF;
   font-family: Avenir;
-  font-size: 24px;
+  font-size: 38px;
   font-weight: 900;
   letter-spacing: 0;
   line-height: 26px;
   }
   .card-tipo{
-  height: 150px;
-  width: 350px;
+  height: 280px;
+  width: 465px;
   border-radius: 8px;
   background-color: #10161C;
   box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
-}
+  }
+  .espacio-card{
+    padding-left: 30%;
+    position: relative;
+    left: -10%;
+  }
+  .espacio-card2{
+    position: relative;
+    left: -2%;
+  }
+  .dato-barra{
+  top: -18%;
+  height: 35px;
+  width: 150px;
+  color: #C1C7D0;
+  font-family: Avenir;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: relative;
+  left: 87%;
+  }
+  .titulo-card{
+  padding-top: 5%;
+  height: 60px;
+  width: 400px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+  }
+.remitente-card{
+  height: 40px;
+  width: 550px;
+  color: #C1C7D0;
+  font-family: Avenir;
+  font-size: 34px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 16px;
+  }
+  .barra-progreso{
+  height: 35px;
+  width: 250px;
+  color: #C1C7D0;
+  font-family: Avenir;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 16px;
+  }
+  .foot{
+  text-align: right;
+  padding-right: 15px;
+  position: relative;
+  top: -20%;
+  font-size: 32px;
+  }
 }
